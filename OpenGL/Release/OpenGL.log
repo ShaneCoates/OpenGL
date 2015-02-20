@@ -1,0 +1,50 @@
+﻿Build started 18/02/2015 8:35:34 AM.
+     1>Project "C:\Users\shane.coates\Desktop\OpenGL\OpenGL\OpenGL.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I./dep/glfw/include /I./dep/glm /I./dep/aieutilities /I"./dep/stb-master" /I./src /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D GLM_SWIZZLE /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt dep\aieutilities\Gizmos_fix.cpp src\Camera.cpp src\FreeCamera.cpp src\Geometry.cpp src\Main.cpp src\MyApplication.cpp src\Object.cpp
+         Gizmos_fix.cpp
+         Camera.cpp
+         FreeCamera.cpp
+         Geometry.cpp
+     1>C:\Users\shane.coates\Desktop\OpenGL\OpenGL\dep\glfw\include\GLFW/glfw3.h(757): warning C4099: 'GLFWwindow' : type name first seen using 'class' now seen using 'struct'
+                 c:\users\shane.coates\desktop\opengl\opengl\src\Geometry.h(12) : see declaration of 'GLFWwindow'
+     1>src\Geometry.cpp(260): warning C4018: '<' : signed/unsigned mismatch
+         Main.cpp
+         MyApplication.cpp
+     1>C:\Users\shane.coates\Desktop\OpenGL\OpenGL\dep\glfw\include\GLFW/glfw3.h(757): warning C4099: 'GLFWwindow' : type name first seen using 'class' now seen using 'struct'
+                 c:\users\shane.coates\desktop\opengl\opengl\src\MyApplication.h(11) : see declaration of 'GLFWwindow'
+         Object.cpp
+     1>src\Object.cpp(41): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>src\Object.cpp(118): warning C4101: 'dummyInt' : unreferenced local variable
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I./dep/glfw/include /I./dep/glm /I./dep/aieutilities /I"./dep/stb-master" /I./src /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D GLM_SWIZZLE /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc110.pdb" /Gd /TC /analyze- /errorReport:prompt src\gl_core_4_4.c
+         gl_core_4_4.c
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\shane.coates\Desktop\OpenGL\Release\OpenGL.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\shane.coates\Desktop\OpenGL\Release\OpenGL.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\shane.coates\Desktop\OpenGL\Release\OpenGL.lib" /MACHINE:X86 /SAFESEH Release\Gizmos_fix.obj
+         Release\Camera.obj
+         Release\FreeCamera.obj
+         Release\Geometry.obj
+         Release\gl_core_4_4.obj
+         Release\Main.obj
+         Release\MyApplication.obj
+         Release\Object.obj
+     1>FreeCamera.obj : error LNK2001: unresolved external symbol _glfwGetKey
+     1>FreeCamera.obj : error LNK2001: unresolved external symbol _glfwGetCursorPos
+     1>FreeCamera.obj : error LNK2001: unresolved external symbol _glfwSetCursorPos
+     1>FreeCamera.obj : error LNK2001: unresolved external symbol _glfwGetFramebufferSize
+     1>FreeCamera.obj : error LNK2001: unresolved external symbol _glfwGetMouseButton
+     1>gl_core_4_4.obj : error LNK2001: unresolved external symbol __imp__wglGetProcAddress@4
+     1>MyApplication.obj : error LNK2001: unresolved external symbol _glfwWindowShouldClose
+     1>MyApplication.obj : error LNK2001: unresolved external symbol _glfwInit
+     1>MyApplication.obj : error LNK2001: unresolved external symbol _glfwCreateWindow
+     1>MyApplication.obj : error LNK2001: unresolved external symbol _glfwMakeContextCurrent
+     1>MyApplication.obj : error LNK2001: unresolved external symbol _glfwSwapBuffers
+     1>MyApplication.obj : error LNK2001: unresolved external symbol _glfwGetTime
+     1>MyApplication.obj : error LNK2001: unresolved external symbol _glfwPollEvents
+     1>MyApplication.obj : error LNK2001: unresolved external symbol _glfwTerminate
+     1>MyApplication.obj : error LNK2001: unresolved external symbol _glfwDestroyWindow
+     1>C:\Users\shane.coates\Desktop\OpenGL\Release\OpenGL.exe : fatal error LNK1120: 15 unresolved externals
+     1>Done Building Project "C:\Users\shane.coates\Desktop\OpenGL\OpenGL\OpenGL.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:24.27
