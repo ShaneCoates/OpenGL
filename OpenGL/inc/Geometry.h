@@ -12,6 +12,7 @@ class FollowCamera;
 struct GLFWwindow;
 class Object;
 class DebugGUI;
+class Skybox;
 
 class GeometryTutorial : public IGameState
 {
@@ -38,6 +39,7 @@ private:
 	void LoadShaders();
 
 	unsigned int m_programID;
+	unsigned int m_skyboxProgramID;
 
 	FollowCamera* camera;
 	glm::vec4 white;
@@ -48,7 +50,7 @@ private:
 	GLFWwindow* window;
 	Object* m_testObject;
 	Object* m_testObject2;
-
+	Skybox* m_skybox;
 	DebugGUI* m_GUI;
 
 };

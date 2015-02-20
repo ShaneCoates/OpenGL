@@ -73,8 +73,6 @@ private:
 	double m_rotationTimer;
 
 	glm::vec3 m_scale;
-
-
 };
 
 #endif

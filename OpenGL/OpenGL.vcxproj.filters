@@ -54,6 +54,9 @@
     <ClCompile Include="src\FollowCamera.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="src\Shader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="dep\glfw\include\GLFW\glfw3.h">
@@ -95,6 +98,9 @@
     <ClInclude Include="inc\FollowCamera.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="inc\Shader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <None Include="data\shader.vert" />
@@ -103,6 +109,7 @@
     <None Include="lib\AntTweakBar64.dll" />
     <None Include="lib\glfw3.dll" />
     <None Include="data\skybox.frag" />
+    <None Include="data\skybox.vert" />
   </ItemGroup>
   <ItemGroup>
     <Library Include="lib\AntTweakBar.lib" />

@@ -1,38 +1,35 @@
+///* 
+//	Author: Shane Coates
+//	Description: Skybox class loaded from OBJ
+//*/
+//
 //#ifndef SKYBOX_H
-//#define SKYBOX_H
+//#define	SKYBOX_H
 //
-//#include <gl_core_4_4.h>
-//#include <GLFW/glfw3.h>
+//#include <glm\glm.hpp>
 //
-//#include <string>
+//class Camera;
 //class Skybox
 //{
-//public: 
-//	Skybox(const std::string& Directory,
-//    const std::string& PosXFilename,
-//    const std::string& NegXFilename,
-//    const std::string& PosYFilename,
-//    const std::string& NegYFilename,
-//    const std::string& PosZFilename,
-//    const std::string& NegZFilename);
+//public:
+//	Skybox(unsigned int _programID);
+//	Skybox(std::string _path, unsigned int _programID);
+//	~Skybox();
 //
-//    ~Skybox();
+//	void Init(unsigned int _programID);
 //
-//    bool Load();
+//	void Update(double dt);
+//	void Draw(Camera* _camera);
 //
-//    void Bind(GLenum TextureUnit);
+//	void LoadSkybox(std::string _path[6]);
 //
-//	void Render();
-//
+//protected:
 //private:
+//	struct Vertex
+//	{
+//		glm::vec3 position;
+//	};
 //
-//    std::string m_fileNames[6];
-//
-//	int m_textureWidth;
-//	int m_textureHeight;
-//	int m_textureFormat;
-//
-//	unsigned int m_texture;
 //
 //	unsigned int m_VAO;
 //	unsigned int m_VBO;
@@ -41,7 +38,11 @@
 //	unsigned int m_indexCount;
 //	unsigned int m_programID;
 //
-//	
+//	int m_textureWidth;
+//	int m_textureHeight;
+//	int m_textureFormat;
+//
+//	unsigned int m_texture[6];
 //};
 //
 //#endif

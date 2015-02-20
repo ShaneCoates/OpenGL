@@ -85,6 +85,7 @@
     <ClCompile Include="src\DebugGUI.cpp" />
     <ClCompile Include="src\FollowCamera.cpp" />
     <ClCompile Include="src\GameStateManager.cpp" />
+    <ClCompile Include="src\Shader.cpp" />
     <ClCompile Include="src\Skybox.cpp" />
     <ClCompile Include="src\XboxController.cpp" />
     <ClCompile Include="src\FreeCamera.cpp" />
@@ -101,6 +102,7 @@
     <ClInclude Include="inc\DebugGUI.h" />
     <ClInclude Include="inc\FollowCamera.h" />
     <ClInclude Include="inc\GameStateManager.h" />
+    <ClInclude Include="inc\Shader.h" />
     <ClInclude Include="inc\Skybox.h" />
     <ClInclude Include="inc\XboxController.h" />
     <ClInclude Include="inc\FreeCamera.h" />
@@ -113,6 +115,7 @@
     <None Include="data\shader.frag" />
     <None Include="data\shader.vert" />
     <None Include="data\skybox.frag" />
+    <None Include="data\skybox.vert" />
     <None Include="lib\AntTweakBar.dll" />
     <None Include="lib\AntTweakBar64.dll" />
     <None Include="lib\glfw3.dll" />
